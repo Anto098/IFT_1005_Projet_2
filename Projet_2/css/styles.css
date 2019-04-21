@@ -1,0 +1,148 @@
+/*==============================================*/
+/* Fonts                                        */
+/*==============================================*/
+html {
+	  background-image: url(../img/potager.jpg);
+	  background-position: center top;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+}
+:root,
+body,
+header,
+footer,
+section,
+article,
+div,
+ul, ol, li,
+p, a, span,
+label, input, button {
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+};
+
+body {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+p{
+	font-size:1.4rem;
+}
+
+.custom_bg{
+	background:#fff;
+}
+
+.no-bg{
+	background:none;
+}
+
+.transparent{
+	background:#fff;
+	opacity:0.9;
+}
+.sticky_navbar{
+	position:sticky!important;
+  position: -webkit-sticky!important;
+  top:0!important;
+  width:100%!important;
+}
+.centered_element{
+	position: absolute;
+  top: 50%;
+	left: 50%;
+  transform: translate(-50%,-50%);
+}
+.slider{
+}
+.slide{
+	height: 100%;
+}
+
+.custom_border{
+	border-width: 1px !important;
+}
+
+.fader {
+	position:relative;
+}
+
+.fader img {
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	transform: translate(0,-50%);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fader:hover img.top {
+  opacity:0;
+}
+.fader:hover img.bottom {
+	opacity:1;
+}
+
+.formu{
+	width:30% !important;
+}
+
+.formu_big{
+	width:50% !important;
+}
+
+.bg_gris{
+	background:#dadada !important;
+	opacity:1 !important;
+}
+.bg_blanc{
+	background:#fff;
+}
+
+/*==============================================*/
+/* Navigation                                   */
+/*==============================================*/
+/**
+ * This section should contain at least the
+ * following elements: header, nav, ul, li, a, div.
+ */
+
+/*==============================================*/
+/* Articles                                     */
+/*==============================================*/
+
+/**
+ * This section should contain at least the
+ * following elements: h1, h2, section, article.
+ */
+
+/*==============================================*/
+/* Recipes                                      */
+/*==============================================*/
+
+/**
+ * This section should contain at least the
+ * following elements: h1, ul, li, p.
+ */
+
+/*==============================================*/
+/* Contact                                      */
+/*==============================================*/
+
+/**
+ * This section should contain at least the
+ * following elements: h1, label, input.
+ */
+
+/*==============================================*/
+/* Footer                                       */
+/*==============================================*/
+
+/**
+ * This section should contain at least the
+ * following elements: p.
+ */

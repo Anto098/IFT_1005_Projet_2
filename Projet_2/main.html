@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="./css/styles.css"/>
+  <link rel="stylesheet" href="./css/normalize.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="./css/slick/slick.css"/>
+  <title>Loading...</title>
+</head>
+<body class="no-bg">
+  <header></header>
+  <nav class="navbar nav-justified sticky-top custom_bg border-bottom border-dark">
+    <div style="width:60%;" class="d-flex justify-content-start">
+
+      <svg height="8em" width="20em">
+       <defs>
+       <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+       <stop offset="0%" style="stop-color:rgb(0,175,100);stopopacity:1" />
+       <stop offset="100%" style="stop-color:rgb(0,220,0);stopopacity:1" />
+       </linearGradient>
+       </defs>
+       <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+       <text fill="#ffffff" font-size="45" font-family='Dancing Script' x="50" y="86">Sylvie</text>
+      </svg>
+    </div>
+
+    <div style="width:40%;" class="d-flex justify-content-around">
+      <a class="btn btn-outline-dark" href="#Accueil">Accueil</a>
+      <a class="btn btn-outline-dark" href="#Recettes">Recettes</a>
+      <a class="btn btn-outline-dark" href="#Contact">Contact</a>
+      <a class="btn btn-outline-success fader shopping_cart_button" style="padding-right:3rem;">Panier
+        <img class="bottom shopping_cart_image_white" src="./img/shopping_cart_white.png" alt="shopping_cart_white" height="25"/>
+        <img class="top shopping_cart_image_green" src="./img/shopping_cart_green.png" alt="shopping_cart_green" height="25"/>
+      </a>
+    </div>
+  </nav>
+
+<section id="Accueil" class="no-bg mx-5">
+  <article class="container-fluid mt-3 border border-dark bg_blanc my-3 text articles">
+    <h1 id="title1" class="text"></h1>
+    <h2 id="subtitle1"></h2>
+    <p id="article1"></p>
+  </article>
+  <article class="container-fluid border border-dark bg_blanc my-3 articles">
+    <h1 id="title2"></h1>
+    <h2 id="subtitle2"></h2>
+    <p id="article2"></p>
+  </article>
+  <article class="container-fluid border border-dark bg_blanc my-3 articles">
+    <h1 id="title3"></h1>
+    <h2 id="subtitle3"></h2>
+    <p id="article3"></p>
+  </article>
+</section>
+
+<section id="Recettes" class="mx-5">
+  <div class="container-fluid row m-0">
+    <div class="col-1">
+      <button type="button" class="centered_element slick-prev btn btn-outline-secondary btn-light" name="button1"><img src="./img/arrow_left.png" alt="arrow_left" height="30"/></button>
+    </div>
+  <div class="slick col-10 slider">
+      <div id="recette1" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_1"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette2" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_2"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette3" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_3"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette4" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_4"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette5" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_5"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette6" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_6"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette7" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_7"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette8" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_8"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette9" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_9"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette10" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_10"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette11" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_11"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+      <div id="recette12" class="bg_blanc mx-2 border-dark slide">
+            <img class="p-1 slide_img" src="" alt="" style="width:100%">
+            <div class="slide_text"><h3 id="slide_h3_12"></h3></div>
+            <div class="slide_buttons pb-1">Qté : <input class="my-2 border-dark rounded custom_border" type="number" value="0" min="0" max="99" style="width: 3em;">
+            <br /><input class="btn btn-outline-dark mb-1" type="button" name="" value="Plus d'infos">
+            </div>
+      </div>
+    </div>
+    <div class="col-1">
+      <button type="button" class="centered_element slick-next btn btn-outline-secondary btn-light" name="button2"><img src="./img/arrow_right.png" alt="right_arrow" height="30"/></button>
+    </div>
+  </div>
+
+<div class="container-fluid row m-0">
+  <div class="col-1"></div>
+  <div id="add_cart_button_div" class="countainer-fluid bg_blanc my-3 col-10 p-0 border border-dark">
+    <a class="btn btn-outline-success fader my-2 shopping_cart_button" style="padding-right:3rem;">Ajouter au
+      <img class="bottom shopping_cart_image_white" src="./img/shopping_cart_white.png" alt="shopping_cart_white" height="25" style="left: 65%;">
+      <img class="top shopping_cart_image_green" src="./img/shopping_cart_green.png" alt="shopping_cart_green" height="25" style="left: 65%;">
+    </a>
+  </div>
+  <div class="col-1"></div>
+</div>
+</section>
+
+
+<section id="Contact">
+<div id="formulaire" class="container-fluid bg_blanc border border-dark">
+  <h1>| Contactez-nous vite fait |</h1>
+  <form action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" method="post">
+    <div class="form-group mt-3 d-flex justify-content-center">
+      <label for="nom">Nom:</label>
+        <input class="form-control formu bg_gris"  id="nom" type="text" name="prenom" required>
+    </div>
+    <div class="form-group d-flex justify-content-center">
+      <label for="address">Adresse:</label>
+        <input class="form-control formu_big bg_gris"  id="address" type="text" name="adresse" required>
+    </div>
+    <div class="form-group d-flex justify-content-center">
+      <label for="zip">Code Postal:</label>
+        <input class="form-control formu bg_gris"  id="zip" type="text" name="Code_postal" pattern="[A-Z]\d[A-Z]\s\d[A-Z]\d" placeholder="A1A 1A1" title="format: LCL CLC *L = Lettre, C = Chiffre" required>
+    </div>
+    <div class="form-group d-flex justify-content-center">
+      <label for="city">Ville: </label>
+        <input class="form-control formu bg_gris"  id="city" type="text" name="ville" required>
+    </div>
+    <div class="form-group d-flex justify-content-center">
+      <label for="tel">Téléphone:</label>
+        <input class="form-control formu bg_gris"  id="tel" type="text" name="phone" placeholder="5145555555" pattern="(514|483|450)\d{7}" title="format: 514XXXXXXX" required>
+    </div>
+    <div class="form-group d-flex justify-content-center">
+      <label for="desc">Description:</label>
+        <textarea class="form-control formu_big bg_gris"  id="desc" name="description" required></textarea>
+    </div>
+    <div class="form-group d-flex justify-content-center">
+      <button class="btn btn-outline-success" type="submit" name="submit">Envoyer</button>
+    </div>
+  </form>
+</div>
+</section>
+
+<img src="./img/Sylvie.svg" alt="Sylvie" style="visibility: hidden;">
+<script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="./css/slick/slick.min.js"></script>
+<script src="./js/scripts.js" ></script>
+<script src="./js/_data_.js" ></script>
+<footer class="custom_bg border-top border-dark">
+  <p class="m-0">Copyright: Antonin Roy et Hugo Baudchon</p>
+</footer>
+</body>
+</html>
